@@ -1,0 +1,22 @@
+Looking at the list of IPs and the context of this DLL (IOTC / TUTK SDK for IoT devices, typically cameras), here’s a reasoned guess for what each IP might be used for:
+
+IP Address	Likely Use / Function
+175.41.238.100	Could be a primary P2P / relay server in Asia (Japan / nearby region). Often TUTK devices use AWS-hosted relay servers for NAT traversal.
+50.19.254.134	Likely a US-based relay or cloud server, possibly for device authentication or fallback P2P connections.
+122.248.234.207	Appears to be in China/Singapore. Could be a regional login or NAT traversal server for devices in that area.
+46.137.188.54	AWS-based server in the US. Possibly a global relay or analytics server for connections routed outside local regions.
+122.226.84.253	China-based ISP. Likely a China-specific login or P2P relay server.
+61.188.37.216	Another China Telecom IP. Could serve as backup or regional relay / authentication server.
+74.125.31.99	Google-owned IP. Possibly used for DNS, NTP, or analytics services, not direct device communication. Could also be a Google CDN endpoint.
+
+Reasoning:
+
+TUTK SDK devices often embed multiple relay / NAT traversal servers across different regions.
+
+Multiple AWS servers indicate global relay infrastructure.
+
+The China IPs suggest local servers for Chinese deployments.
+
+Google IP is likely supporting infrastructure (DNS, CDN, or update checks).
+
+If you want, I can draw a diagram showing likely traffic flows from the device to these IPs, which helps visualize what the DLL is actually doing with them.

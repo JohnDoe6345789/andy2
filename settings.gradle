@@ -1,0 +1,3 @@
+rootProject.name = 'Bambu Handy'
+
+include 'app'
