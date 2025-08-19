@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="estimateTimeLabel">预计完成时间</string>
+    <string name="status_label_making">制作中</string>
+    <string name="status_label_paused">已暂停</string>
+    <string name="status_label_printing">打印中</string>
+    <string name="time_left_label">剩余时间</string>
+    <string name="ucrop_crop">裁剪</string>
+    <string name="ucrop_label_edit_photo">裁剪</string>
+    <string name="ucrop_label_original">原始比例</string>
+    <string name="ucrop_menu_crop">裁剪</string>
+    <string name="ucrop_rotate">旋转</string>
+    <string name="ucrop_scale">缩放</string>
+</resources>

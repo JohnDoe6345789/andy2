@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bambu Handy</string>
+    <string name="camera_title">Printer Camera</string>
+    <string name="device_list_title">Available Printers</string>
+    <string name="settings_title">Settings</string>
+    <string name="connecting">Connecting to printer...</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="error_connection">Failed to connect to printer</string>
+    <string name="error_camera">Camera error</string>
+    <string name="refresh">Refresh</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+</resources>
